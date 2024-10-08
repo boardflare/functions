@@ -1,0 +1,29 @@
+{
+  "content": [
+    {
+      "content": null,
+      "created": "2024-10-08T04:56:49.941562Z",
+      "format": null,
+      "hash": null,
+      "hash_algorithm": null,
+      "last_modified": "2024-10-08T04:24:31.234455Z",
+      "mimetype": null,
+      "name": "fmatch.ipynb",
+      "path": "text\\fuzzy/fmatch.ipynb",
+      "size": 2483,
+      "type": "notebook",
+      "writable": true
+    }
+  ],
+  "created": "2024-10-08T04:56:49.940553Z",
+  "format": "json",
+  "hash": null,
+  "hash_algorithm": null,
+  "last_modified": "2024-10-08T04:56:49.941562Z",
+  "mimetype": null,
+  "name": "text\\fuzzy",
+  "path": "text\\fuzzy",
+  "size": null,
+  "type": "directory",
+  "writable": true
+}

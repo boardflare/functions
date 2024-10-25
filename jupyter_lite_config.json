@@ -1,0 +1,11 @@
+{
+    "LiteBuildConfig": {
+        "output_dir": "app/jupyterlite",
+        "contents": [
+            "app/notebooks"
+        ],
+        "apps": [
+            "lab"
+        ]
+    }
+}

@@ -1,0 +1,57 @@
+{
+  "content": [
+    {
+      "content": null,
+      "created": "2024-10-25T15:42:14.200549Z",
+      "format": null,
+      "hash": null,
+      "hash_algorithm": null,
+      "last_modified": "2024-10-23T01:33:18.252782Z",
+      "mimetype": null,
+      "name": "nltk_distance.ipynb",
+      "path": "text\\fuzzy/nltk_distance.ipynb",
+      "size": 6641,
+      "type": "notebook",
+      "writable": true
+    },
+    {
+      "content": null,
+      "created": "2024-10-25T15:42:14.219657Z",
+      "format": null,
+      "hash": null,
+      "hash_algorithm": null,
+      "last_modified": "2024-10-23T01:33:18.253895Z",
+      "mimetype": null,
+      "name": "text_distance.ipynb",
+      "path": "text\\fuzzy/text_distance.ipynb",
+      "size": 7063,
+      "type": "notebook",
+      "writable": true
+    },
+    {
+      "content": null,
+      "created": "2024-10-25T15:42:14.237789Z",
+      "format": null,
+      "hash": null,
+      "hash_algorithm": null,
+      "last_modified": "2024-10-23T01:33:18.253895Z",
+      "mimetype": null,
+      "name": "the_fuzz.ipynb",
+      "path": "text\\fuzzy/the_fuzz.ipynb",
+      "size": 3541,
+      "type": "notebook",
+      "writable": true
+    }
+  ],
+  "created": "2024-10-25T15:42:14.199298Z",
+  "format": "json",
+  "hash": null,
+  "hash_algorithm": null,
+  "last_modified": "2024-10-25T15:42:14.238833Z",
+  "mimetype": null,
+  "name": "text\\fuzzy",
+  "path": "text\\fuzzy",
+  "size": null,
+  "type": "directory",
+  "writable": true
+}

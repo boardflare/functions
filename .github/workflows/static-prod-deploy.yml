@@ -17,4 +17,4 @@ jobs:
       uses: azure/CLI@v1
       with:
         inlineScript: |
-            az storage blob sync --account-name 'boardflareaddins' -c 'functions/prod' -s './notebooks' --delete-destination true --sas-token '${{ secrets.CONTAINER_SAS_TOKEN }}'
+            az storage blob sync --account-name 'boardflareaddins' -c 'functions/prod' -s './app' --delete-destination true --sas-token '${{ secrets.CONTAINER_SAS_TOKEN }}'

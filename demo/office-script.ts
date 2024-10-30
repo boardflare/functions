@@ -17,6 +17,7 @@ async function main(workbook: ExcelScript.Workbook) {
     // Step 4: Extract title, overview, and compatibility from the notebook cells.
     let title: string = extractTitle(cells);
     let overview: string = extractOverview(cells);
+    console.log(overview);
     let compatibility: string = extractCompatibility(cells).join(' ');
 
     // Set the extracted title to cell B1
@@ -165,11 +166,11 @@ async function main(workbook: ExcelScript.Workbook) {
     // Helper function to set arg values to the worksheet
     function setArgValue(arg: unknown, column: string) {
         if (Array.isArray(arg) && Array.isArray(arg[0])) {
-            const range = currentSheet.getRange(`${column}3`).getResizedRange(arg.length - 1, arg[0].length - 1);
-            range.setValues(arg as unknown[][]);
+            const range = currentSheet.getRange(`${column}3`).getResizedRange(arg.length - 1, (arg[0] as unknown[]).length - 1);
+            range.setValues(arg as (string | number | boolean)[][]);
             range.getFormat().setWrapText(false);
         } else {
-            currentSheet.getRange(`${column}3`).setValue(arg);
+            currentSheet.getRange(`${column}3`).setValue(arg as string | number | boolean);
         }
     }
 

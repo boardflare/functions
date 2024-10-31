@@ -5,3 +5,5 @@ jupyterlab-spreadsheet-editor
 jupyter_server
 jupyterlab_server
 libarchive-c
+pandas
+numpy

@@ -1,0 +1,29 @@
+{
+  "content": [
+    {
+      "content": null,
+      "created": "2024-10-30T23:56:51.732486Z",
+      "format": null,
+      "hash": null,
+      "hash_algorithm": null,
+      "last_modified": "2024-10-30T23:51:23.729461Z",
+      "mimetype": null,
+      "name": "azureai_sentiment.ipynb",
+      "path": "text\\sentiment/azureai_sentiment.ipynb",
+      "size": 28394,
+      "type": "notebook",
+      "writable": true
+    }
+  ],
+  "created": "2024-10-30T23:56:51.731489Z",
+  "format": "json",
+  "hash": null,
+  "hash_algorithm": null,
+  "last_modified": "2024-10-30T23:56:51.732486Z",
+  "mimetype": null,
+  "name": "text\\sentiment",
+  "path": "text\\sentiment",
+  "size": null,
+  "type": "directory",
+  "writable": true
+}

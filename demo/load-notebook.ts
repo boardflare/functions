@@ -18,7 +18,7 @@ async function main(workbook: ExcelScript.Workbook) {
     let title: string = extractTitle(cells);
     let overview: string = extractOverview(cells);
     console.log(overview);
-    let compatibility: string = extractCompatibility(cells).join(' ');
+    //let compatibility: string = extractCompatibility(cells).join(' ');
 
     // Set the extracted title to cell B1
     currentSheet.getRange("B1").setValue(title);
@@ -27,13 +27,13 @@ async function main(workbook: ExcelScript.Workbook) {
     currentSheet.getRange("B7").setValue(overview);
 
     // Set the extracted compatibility to cell B6
-    currentSheet.getRange("B6").setValue(compatibility);
+    //currentSheet.getRange("B6").setValue(compatibility);
 
     // Add after the initial extractions:
     console.log("=== Extracted Basic Information ===");
     console.log("Title:", title);
     console.log("Overview:", overview);
-    console.log("Compatibility:", compatibility);
+    //console.log("Compatibility:", compatibility);
 
     // Step 5: Extract code, arguments, headers, and docstring from the notebook cells.
     let code: string = "";
@@ -63,7 +63,7 @@ async function main(workbook: ExcelScript.Workbook) {
     console.log("Code:", code);
     console.log("Arguments:", args);
     console.log("Headers:", headers);
-    console.log("Docstring:", docstring);
+    //console.log("Docstring:", docstring);
 
     // Function to extract values for args and headers
     function extractValue(cell: NotebookCell): unknown {

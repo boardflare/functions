@@ -1,9 +1,2 @@
-jupyterlite-core
-jupyterlite-pyodide-kernel
-jupyterlab_gist_it
-jupyterlab-spreadsheet-editor
-jupyter_server
-jupyterlab_server
-libarchive-c
 pandas
 numpy

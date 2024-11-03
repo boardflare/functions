@@ -173,8 +173,8 @@ async function main(workbook: ExcelScript.Workbook) {
     }
 
     // Step 6: Add code from notebook.
-    currentSheet.getRange("B26").setValue(code);
-    currentSheet.getRange("B26").getFormat().setWrapText(true); // Set text wrap to true
+    currentSheet.getRange("B20").setValue(code);
+    currentSheet.getRange("B20").getFormat().setWrapText(true); // Set text wrap to true
 
     // Add before setting arg values:
     console.log("\n=== Setting Arguments ===");

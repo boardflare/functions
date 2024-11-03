@@ -27,14 +27,15 @@ async function main(workbook: ExcelScript.Workbook) {
     const notebookContent: NotebookContent = await fetchResult.json();
     const cells = notebookContent.cells;
 
-    // Extract args and headers
-    let args: unknown[] = [];
+    // Extract args from "parameters" cell
+    let args: { [key: string]: unknown } = {};
     let headers: string[] = [];
 
     for (let cell of cells) {
-        for (let i = 1; i <= 5; i++) {
-            if (cell.metadata?.tags?.includes(`arg${i}`)) {
-                args[i - 1] = extractValue(cell);
+        if (cell.metadata?.tags?.includes("parameters")) {
+            const output = extractValue(cell);
+            if (output) {
+                args = output as { [key: string]: unknown };
             }
         }
         if (cell.metadata?.tags?.includes("headers")) {
@@ -43,8 +44,11 @@ async function main(workbook: ExcelScript.Workbook) {
     }
 
     // Set argument values starting from A6
-    for (let i = 0; i < args.length; i++) {
-        setArgValue(workbook, args[i], getColumnLetter(i), 6); // Pass workbook to setArgValue
+    let columnIndex = 0;
+    for (const key in args) {
+        const columnLetter = getColumnLetter(columnIndex);
+        setArgValue(workbook, args[key], columnLetter, 6);
+        columnIndex++;
     }
 
     // Set headers in row 5

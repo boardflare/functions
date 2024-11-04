@@ -1,6 +1,5 @@
 [
     "text/fuzzy-match/nltk_distance",
     "text/fuzzy-match/text_distance",
-    "text/fuzzy-match/thefuzz_distance",
     "text/sentiment-analysis/azure_sentiment"
 ]

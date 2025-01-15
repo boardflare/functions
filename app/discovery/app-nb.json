@@ -3,30 +3,12 @@
         {
             "url": "https://functions.boardflare.com/notebooks/demo/simple.ipynb",
             "title": "Simple Examples"
-        },
-        {
-            "url": "https://functions.boardflare.com/notebooks/demo/imports.ipynb",
-            "title": "Importing Packages"
         }
     ],
     "Text Analysis": [
         {
             "url": "https://functions.boardflare.com/notebooks/text/nltk.ipynb",
-            "title": "Natural Language Toolkit (NLTK)"
-        },
-        {
-            "url": "https://functions.boardflare.com/notebooks/text/fuzzy-matching.ipynb",
-            "title": "Fuzzy Matching"
-        }
-    ],
-    "Advanced": [
-        {
-            "url": "https://functions.boardflare.com/notebooks/demo/machine-learning.ipynb",
-            "title": "Machine Learning Examples"
-        },
-        {
-            "url": "https://functions.boardflare.com/notebooks/demo/visualization.ipynb",
-            "title": "Data Visualization"
+            "title": "Natural Language Toolkit (NLTK) Examples"
         }
     ]
 }

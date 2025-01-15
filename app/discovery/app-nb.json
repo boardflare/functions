@@ -7,8 +7,16 @@
     ],
     "Text Analysis": [
         {
-            "url": "https://functions.boardflare.com/notebooks/text/nltk.ipynb",
+            "url": "https://functions.boardflare.com/notebooks/text/nltk-package.ipynb",
             "title": "Natural Language Toolkit (NLTK) Examples"
+        },
+        {
+            "url": "https://functions.boardflare.com/notebooks/text/fuzzy-match.ipynb",
+            "title": "Fuzzy Matching Examples"
+        },
+        {
+            "url": "https://functions.boardflare.com/notebooks/text/azure-language.ipynb",
+            "title": "Azure Language API Examples"
         }
     ]
 }

@@ -2,21 +2,21 @@
     "Getting Started": [
         {
             "url": "https://functions.boardflare.com/notebooks/demo/simple.ipynb",
-            "title": "Simple Examples"
+            "title": "Simple examples without external packages"
         }
     ],
     "Text Analysis": [
         {
             "url": "https://functions.boardflare.com/notebooks/text/nltk-package.ipynb",
-            "title": "Natural Language Toolkit (NLTK) Examples"
+            "title": "Natural language processing using nltk package"
         },
         {
             "url": "https://functions.boardflare.com/notebooks/text/fuzzy-match.ipynb",
-            "title": "Fuzzy Matching Examples"
+            "title": "Fuzzy Matching using textdistance package"
         },
         {
             "url": "https://functions.boardflare.com/notebooks/text/azure-language.ipynb",
-            "title": "Azure Language API Examples"
+            "title": "Azure Language API examples"
         }
     ]
 }

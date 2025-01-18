@@ -13,10 +13,6 @@
         {
             "url": "https://functions.boardflare.com/notebooks/text/fuzzy-match.ipynb",
             "title": "Fuzzy Matching using textdistance"
-        },
-        {
-            "url": "https://functions.boardflare.com/notebooks/text/azure-language.ipynb",
-            "title": "Azure Language API examples"
         }
     ]
 }

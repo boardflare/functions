@@ -2,7 +2,8 @@
     "Getting Started": [
         {
             "url": "https://functions.boardflare.com/notebooks/demo/simple.ipynb",
-            "title": "Simple examples"
+            "title": "Simple examples",
+            "workbook": "https://functions.boardflare.com/notebooks/demo/simple.xlsx"
         }
     ],
     "Text Analysis": [
